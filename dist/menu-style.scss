@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parisienne", cursive;
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 0.2em;
+  // padding-left: 5rem;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 3px #1c1d1f, 0 0 5px #1c1d1f;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  transition: transform 1s;
+  position: relative;
+
+  p {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-weight: 700;
+  }
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  background-color: #1c1d1f;
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+h5{
+    font-family: "Parisienne", cursive;
+}
+
+p{
+    font-family: "Glory", sans-serif;;
+}
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

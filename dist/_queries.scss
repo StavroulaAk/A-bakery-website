@@ -1,0 +1,27 @@
+@media screen and (max-width: 950px){
+    h3{
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 470px){
+    h1{
+        font-size: 3rem;
+    }   
+
+    h3{
+        font-size: 1rem;
+    }
+}
